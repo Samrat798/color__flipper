@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Winky Rough', cursive;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.nav h1 {
+  color: #6c99ca;
+}
+
+.nav__links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav__link a,
+.nav__link a:link,
+.nav__link a:visited {
+  text-decoration: none;
+  cursor: pointer;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.nav__link a:hover {
+  color: #6c99ca;
+}
+
+.container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h2 {
+  margin-bottom: 2rem;
+  background-color: aquamarine;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
+}
+
+.btn {
+  background-color: aquamarine;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
+  margin-bottom: 2.5rem;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgb(81, 185, 150);
+  color: #fff;
+}
+.input-container {
+  width: 60%;
+}
+.input-color {
+  width: 70%;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+}
+
+.input-color:focus {
+  outline: none;
+}
